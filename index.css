@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: pink; */
+    box-sizing: border-box;
+}
+
+#logo{
+    height: 30px;
+    width: 140px;
+    margin-left: 140px;
+}
+
+nav{
+    height: 60px;
+    position: fixed;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li{
+    margin-right: 25px;
+    list-style: none;
+    display: inline;
+    color: rgba(215, 15, 100, 1);
+}
+
+section img{
+    width: 100%;
+}
+.PARA
+{
+    position: relative;
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-image: url(./images/foodpanda-model-opt-scaled.jpg); */
+    background-size: cover;
+    text-align: center;
+    color:black;
+}
+
+.para{
+    /* letter-spacing: 2px; */
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    margin-top: -650px;
+    margin-left: -350px;
+}
+.countries{
+    background-color: rgba(128, 128, 128, 0.548);
+    /* padding: 6px; */
+    position: relative;
+    top: -50px;
+}
+
+.countries img{
+    border-radius: 2px;
+    margin-right: 15px;
+    height: 2rem;
+    width: 3rem;
+}
+.image{
+    margin-left: 300PX;
+    position: relative;
+    top: -10px;
+}
+.aboutus{
+    margin: 0%;
+    padding: 0%;
+}
+.aboutus div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(114, 113, 113);
+    width: 100vw;
+    height: 100vh;
+}
+
+p{
+    font-family: "museo-sans", sans-serif;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+    font-style: normal;
+    padding: 3% 0%;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color:rgba(215, 15, 100, 1);
+    height: 50px;
+    width: 255px;
+}
+
+#car{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/foodpanda-rider-opt.jpg);
+    background-attachment: fixed;
+}
+
+#btn{
+    border: none;
+    color: rgba(215, 15, 100, 1);
+    background-color:white;
+    height: 50px;
+    width: 255px;
+}
+
+#press{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/foodpanda-tuna-opt-scaled.jpg);
+    background-attachment: fixed;
+}
+
+#contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(215, 15, 100, 1);
+}
+
+footer {
+    padding: 32px 0;
+    border-top: 1px solid #E0E0E0;
+  }
+  footer p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+  }
+  .site-footer{ 
+      display: -webkit-flex;
+      display: -ms-flexbox; 
+      display: flex;
+      flex-direction: column;
+  }
+  .site-footer-container{
+      display: -webkit-flex;
+      display: -ms-flexbox; 
+      display: flex;
+      flex-direction: row;
+  }
+  .site-footer-logo,
+  .site-footer-links,
+  .site-footer-copyright{
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1; 
+      display: -webkit-flex;
+      display: -ms-flexbox; 
+      display: flex;
+  }
+  .site-footer-logo,
+  .site-footer-copyright{
+      justify-content: flex-start;
+  }
+  .site-footer-links,
+  .site-footer-imprint{
+      justify-content: flex-end;
+  }
+  .site-footer-copyright,
+  .site-footer-imprint a{
+      color: #615f5f;
+      font-weight: 300;
+      margin-left:110px;
+      font-size:18px;
+  }
+  .site-footer-imprint a:hover{
+      color: #d70f64;
+  }
+
+  .site-footer-logo .footer-logo{
+      width: 100%;
+      max-width: 200px;
+      height: 40px;
+      margin-left:110px;
+  }
+  .links-list{
+      list-style: none;
+      margin-right:40px;
+  }
+  .social-icon-link{
+      display: inline;
+      margin-left: -25px;
+  }
+  .social-icon{
+      height: 2rem;
+  }
+
+  h1{
+    color: #d70f64;
+  }
+
+  #cnt{
+    color: white;
+  }
+  .site-footer-imprint{
+    color: #5f5b5b;
+    margin-right: 65px;
+    font-size:18px;
+  }
